@@ -1,0 +1,313 @@
+/***************DEAFULT CSS***********/
+/***************DEAFULT CSS***********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    font-family: 'Alfa Slab One', cursive;
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Montserrat', sans-serif;*/
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/****************END DEAFULT CSS*************/
+/****************END DEAFULT CSS*************/
+
+
+/******************WRAPPER CLASS START*********/
+/******************WRAPPER CLASS START*********/
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/**************WRAPPER CLASS END************/
+/**************WRAPPER CLASS END************/
+
+
+.header-section {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.header-desc {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.header-menu {
+    text-align: right;
+}
+
+.h-menu {
+    padding: 23px 0px;
+}
+
+.h-menu ul {}
+
+.h-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 45px;
+
+}
+
+.h-img {}
+
+.h-img img {
+    vertical-align: middle;
+}
+
+.h-img .span1 {
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #3d2514;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.h-menu ul li a {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-weight: 500;
+}
+
+.h-menu ul li a:hover {}
+
+.heder-title {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.h-left {
+    flex-basis: 50%;
+    margin-top: 90px;
+}
+
+.h-left p {
+    border: 4px dashed #3d2514;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.h-left h1 {
+    font-size: 114px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    letter-spacing: 3px;
+    text-shadow: 4px 3px white;
+}
+
+.h-left h2 {
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    letter-spacing: 2px;
+    text-shadow: 3px 2px white;
+
+}
+
+.h-right {
+    flex-basis: 50%;
+}
+
+.h-right img {
+    max-width: 100%;
+}
+
+/**************HEADER END CSS************/
+/**************HEADER END CSS************/
+
+/*************SERVICE START CSS**************/
+/*************SERVICE START CSS**************/
+
+.service-section {
+    padding: 20PX 0PX;
+    width: 100%;
+}
+
+.service-part {
+    display: flex;
+}
+
+.part1 {
+    margin: 15px;
+}
+
+.part1 img {
+    max-width: 100%;
+}
+
+.s-left {
+    flex-basis: 50%;
+}
+
+.s-right {
+    flex-basis: 50%;
+}
+
+.part1 {
+    position: relative;
+}
+
+.s-left-title {
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 18px;
+    top: 10px;
+
+
+}
+
+.s-left-title h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.s-left-title h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.second {
+    margin-bottom: 28px;
+}
+
+/***********SERVICE SECTION END CSS**********/
+/***********SERVICE SECTION END CSS**********/
+
+
+/*************ENJOY SECTION CSS START**********/
+/*************ENJOY SECTION CSS START**********/
+
+.enjoy-section {
+    padding: 50px 0px;
+    width: 100%;
+}
+
+.enjoy-content {
+    text-align: center;
+}
+
+.enjoy-content h3 {
+    background: #ffc045;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 13px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+}
+
+.enjoy-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 17px 0px;
+    color: #3d2514;
+    c letter-spacing: 1px;
+}
+
+.enjoy-content p {
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.enjoy-img {
+    display: flex;
+    margin: 70px 0px;
+}
+
+.enjoy-item {
+    text-align: center;
+}
+
+.enjoy-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.enjoy-item h1 {
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.enjoy-item p {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.enjoy-item button {
+    margin-top: 35px;
+    border: none;
+
+}
+
+.enjoy-item button a {
+    color: white;
+    background: #;
+    background: #e20707;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+.enjoy-item button a:hover {}
+
+/****************ENJOY SECTION CSS END*********/
+/****************ENJOY SECTION CSS END*********/
